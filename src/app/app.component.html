@@ -1,7 +1,3 @@
-<input type="text" (keyup)="getDaTa(box.value)" placeholder="name" #box/>
-<p>box value is :{{displayval}}</p>
-
- 
-<input type="text" placeholder="name" name="name" #boxs/>
-<button (click)="getData(boxs.value)">click</button> 
-<p>box value is :{{displayVal}}</p> 
+<button (click)="counter('minus')" >--</button>
+<p>count:{{count}}</p>
+<button (click)="counter('add')">++</button>

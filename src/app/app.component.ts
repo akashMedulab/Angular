@@ -6,17 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title="important event in angular"
-  // name="akash m"
-  displayval="";
-  displayVal="";
-  getData(val:string){
-    console.log(val)
-    this.displayVal=val
-  }
-  getDaTa(val:string){
-    console.log(val)
-    this.displayval=val
-  }
+  title="counter with angular"
+   count=0;
+   counter(type:string){
+
+    type==='add' ?this.count++:this.count--
+
+   }
   
 }
