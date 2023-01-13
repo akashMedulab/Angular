@@ -6,12 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title="counter with angular"
-   count=0;
-   counter(type:string){
+  title="property binding "
 
-    type==='add' ?this.count++:this.count--
+  name="akash"
+   //disable=false
 
-   }
-  
+disable=true
 }
